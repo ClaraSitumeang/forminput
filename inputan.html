@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-dark bg-dark">
+            <p align="center" class="navbar-brand"><h3 >FORMULIR DATA PRIBADI</h3></p>
+    </div>
+    <br>
+<form action="action_page.php">
+    <hr />
+
+    <header style="text-align: center;">
+        <img align="center-right" src="image/foto-profile.jpg" width="200" height="200" style="border-radius: 50%;"/>
+        <h1></h1>
+        <tr><td><h6>&nbsp Upload Foto</h6></td><td></td></tr>
+        <tr><td></tr></td><td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="file" value="upload gambar"/></td></tr>
+  
+    </header>
+    <div class="container">
+    <hr />
+    <table>
+        <div class="container">
+        <pre></pre><div class="card mt-2">
+            <div class="card-header">
+                <h3>I. IDENTITAS DIRI</h3>
+            </div></div>
+        <br>
+        <tr>
+            <td><label for="nama">1. &nbsp Nama Lengkap</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="nama" id="nama"></td>
+        </tr>
+        <tr>
+            <td><label for="Ttl">2. &nbsp Tempat/Tanggal Lahir</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="ttl" id="ttl"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">3. &nbsp Jenis Kelamin</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="gender"></td>
+        </tr>
+        <tr>
+            <td><label for="alamat">4. &nbsp Alamat</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="alamat"></td>
+        </tr>
+        <tr>
+            <td><label for="hp">5. &nbsp Telepon / HP</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="hp"></td>
+        </tr>
+        <tr>
+            <td><label for="email">6. &nbsp Alamat e-mail</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td><label for="agama">7. &nbsp Agama</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="agama"></td>
+        </tr>
+        <tr>
+            <td><label for="sp">8. &nbsp Status Pernikahan</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="sp"></td>
+        </tr>
+        <tr>
+            <td><label for="nip">9. &nbsp NIP</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="nip"></td>
+        </tr>
+        <tr>
+            <td><label for="Jbtn">10. Jabatan saat ini</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="jbtn"></td>
+        </tr>
+        <tr>
+            <td><label for="gol">11. Golongan</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="gol"></td>
+        </tr>
+        <tr>
+            <td><label for="n_atasan">12.  Nama Atasan Langsung</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="n_atasan"></td>
+        </tr>
+        <tr>
+            <td><label for="j_atasan">13. Jabatan Atasan Langsung</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="j_atasan"></td>
+        </tr>
+    </table><br>&nbsp &nbsp &nbsp
+        <button type="button" class="btn btn-primary center-left" data-bs-toggle="modal" data-bs-target="#pemasukanModal">
+            <span data-feather="plus"></span>
+            Simpan Data
+        </button><br>
+</form>
+
+
+<form>
+    <table>
+        <pre></pre><div class="card ">
+            <div class="card-header">
+                <h3>II. LINGKUNGAN KELUARGA</h3>
+            </div>
+        <br>
+        
+        <tr>
+            <td><label for="nama">&nbsp Nama Pasangan</label></td>
+            <td>&nbsp : &nbsp </td>
+            <td><input type="text" name="nama" id="nama"></td>
+        </tr>
+       
+        <tr>
+            <td><label for="nmank1"><font color="red">ANAK KE-1</font><br>&nbspNama Anak</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="ttl" id="ttl"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">&nbsp L/P</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="gender"></td>
+        </tr>
+        <tr>
+            <td><label for="pendidikan">&nbsp Pendidikan </label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="pendidikan"></td>
+        </tr>
+        <tr>
+            <td><label for="pekerjaan">&nbsp Pekerjaan </label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="pekerjaan"></td>
+        </tr>
+        <tr>
+            <td><label for="nmank1"><font color="red">ANAK KE-2</font><br>Nama Anak</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="nmank" id="ttl"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">&nbsp L/P</label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="gender"></td>
+        </tr>
+        <tr>
+            <td><label for="pendidikan">&nbsp Pendidikan </label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="pendidikan"></td>
+        </tr>
+        <tr>
+            <td><label for="pekerjaan">&nbsp Pekerjaan </label></td>
+            <td>&nbsp : &nbsp</td>
+            <td><input type="text" name="pekerjaan"></td>
+        </tr>
+    </form>
+
+
+    <form>
+        <table>
+            <pre></pre><div class="card ">
+                <div class="card-header">
+                    <h3>III. LINGKUNGAN PENDIDIKAN</h3>
+                </div>
+            <br>
+            <h4>1. Pendidikan Formal</h4>
+            <tr>
+                <td><label for="namas"><font color="red">S3 </font>&nbspNama Sekolah</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="namas" ></td>
+            </tr>
+            <tr>
+                <td><label for="gender">&nbsp &nbsp &nbsp Jurusan</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="gender"></td>
+            </tr>
+            <tr>
+                <td><label for="tempat">&nbsp &nbsp &nbsp tempat </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="tempat"></td>
+            </tr>
+            <tr>
+                <td><label for="thn">&nbsp &nbsp &nbsp Thn s/d Thn </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="thn"></td>
+            </tr>
+            <tr>
+                <td><label for="ket">&nbsp &nbsp &nbsp Keterangan </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="ket"></td>
+            </tr>
+            <tr>
+                <td><label for="namas"><font color="red">S2</font>&nbspNama Sekolah</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="namas" ></td>
+            </tr>
+            <tr>
+                <td><label for="gender">&nbsp &nbsp &nbsp Jurusan</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="gender"></td>
+            </tr>
+            <tr>
+                <td><label for="tempat">&nbsp &nbsp &nbsp tempat </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="tempat"></td>
+            </tr>
+            <tr>
+                <td><label for="thn">&nbsp &nbsp &nbsp Thn s/d Thn </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="thn"></td>
+            </tr>
+            <tr>
+                <td><label for="ket">&nbsp &nbsp &nbsp Keterangan </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="ket"></td>
+            </tr>
+            <tr>
+                <td><label for="namas"><font color="red">Univ/Inst</font>&nbsp Nama Sekolah</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="namas" ></td>
+            </tr>
+            <tr>
+                <td><label for="gender">&nbsp &nbsp &nbsp Jurusan</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="gender"></td>
+            </tr>
+            <tr>
+                <td><label for="tempat">&nbsp &nbsp &nbsp tempat </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="tempat"></td>
+            </tr>
+            <tr>
+                <td><label for="thn">&nbsp &nbsp &nbsp Thn s/d Thn </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="thn"></td>
+            </tr>
+            <tr>
+                <td><label for="ket">&nbsp &nbsp &nbsp Keterangan </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="ket"></td>
+            </tr>
+            <tr>
+                <td><label for="namas"><font color="red">Akademi</font>&nbspNama Sekolah</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="namas" ></td>
+            </tr>
+            <tr>
+                <td><label for="gender">&nbsp &nbsp &nbsp Jurusan</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="gender"></td>
+            </tr>
+            <tr>
+                <td><label for="tempat">&nbsp &nbsp &nbsp tempat </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="tempat"></td>
+            </tr>
+            <tr>
+                <td><label for="thn">&nbsp &nbsp &nbsp Thn s/d Thn </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="thn"></td>
+            </tr>
+            <tr>
+                <td><label for="ket">&nbsp &nbsp &nbsp Keterangan </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="ket"></td>
+            </tr>
+            <tr>
+                <td><label for="namas"><font color="red">SLTA</font>&nbspNama Sekolah</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="namas" ></td>
+            </tr>
+            <tr>
+                <td><label for="gender">&nbsp &nbsp &nbsp Jurusan</label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="gender"></td>
+            </tr>
+            <tr>
+                <td><label for="tempat">&nbsp &nbsp &nbsp tempat </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="tempat"></td>
+            </tr>
+            <tr>
+                <td><label for="thn">&nbsp &nbsp &nbsp Thn s/d Thn </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="thn"></td>
+            </tr>
+            <tr>
+                <td><label for="ket">&nbsp &nbsp &nbsp Keterangan </label></td>
+                <td>&nbsp : &nbsp</td>
+                <td><input type="text" name="ket"></td>
+            </tr>
+        </table>
+            </form>
+
+            <br>
+            <form>
+                <a><h4>2. Pendidikan Informal (Kursus atau Training)</h4></a>
+                <table>
+                    <tr>
+                        <td><label for="jkt">&nbsp Jenis Kursus/Training</label></td>
+                        <td>&nbsp : &nbsp</td>
+                        <td><input type="text" name="jkt" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tmpt">&nbsp Tempat</label></td>
+                        <td>&nbsp : &nbsp</td>
+                        <td><input type="text" name="tmpt"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="thn">&nbsp Tahun </label></td>
+                        <td>&nbsp : &nbsp</td>
+                        <td><input type="text" name="thn"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="thn">&nbsp Keterangan </label></td>
+                        <td>&nbsp : &nbsp</td>
+                        <td><input type="text" name="keti"></td>
+                    </tr>
+                   
+                </table>
+                    </form>
+
+                    <form action="action_page.php">
+                        <table>
+                            <pre></pre><div class="card ">
+                                <div class="card-header">
+                                    <h3>IV. RIWAYAT PEKERJAAN </h3>
+                                </div>
+                            <br>
+                            <p><h4>&nbsp 1. Uraikan dengan singkat pekerjaan Anda selama ini (dimulai dari posisi terakhir);</h4></p>
+                            <tr>
+                                <td>
+                                <div align="left"><label fot="jbtn">&nbsp &nbsp Jabatan</label></div>
+                                &nbsp &nbsp<input  name="jbtn" required="required" placeholder="Masukan Jabatan Anda"></input><br/>
+                                </td>
+                                <td></tr>
+                            <tr>
+                                <td>
+                                <div align="left"><label fot="bln">&nbsp &nbsp Bln/Thn s/d Bln/Thn</label></div>
+                                &nbsp &nbsp<input  name="bln" required="required" placeholder="Masukan Bln/Thn" ></input><br/>
+                                </td>
+                                <td></tr>
+                            <tr>
+                                <td>
+                                <div align="left"><label for="uk">&nbsp &nbsp Unit Kerja</label></div>
+                                &nbsp &nbsp<input name="uk" required="required" placeholder="Masukan Unit Kerja"></input><br/>
+                                </td>
+                                <td></tr>
+
+                                
+                            <tr>
+                                <td><br>
+                                <div align="left"><label><h4>&nbsp 2. Uraikan tugas untuk dua posisi terakhir bidang pekerjaan di atas</h4></label></div>
+                                &nbsp &nbsp <textarea id="po" name="po" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                                </td>
+                                <td>
+                            </tr>
+                           
+                        </table><br>
+                    </form>
+
+                    
+                    <form action="action_page.php">
+                        <table>
+                            <pre></pre><div class="card ">
+                                <div class="card-header">
+                                    <h3>V. DATA PEKERJAAN </h3>
+                                </div>
+                            <br>
+                            <p><h4>&nbsp 1. Berapa orang bawahan langsung Anda di jabatan sekarang? Di bagian apa dan sebagai apa mereka bekerja?....orang.</h4></p>
+                            <tr>
+                                <td>
+                                <div align="left"><label fot="nama">&nbsp &nbsp Nama</label></div>
+                                &nbsp &nbsp<input  name="nama" required="required" placeholder="Masukan Nama"></input><br/>
+                                </td>
+                                <td></tr>
+                            <tr>
+                                <td>
+                                <div align="left"><label fot="bagian">&nbsp &nbsp Bagian</label></div>
+                                &nbsp &nbsp<input  name="bagian" required="required" placeholder="Masukan bagian" ></input><br/>
+                                </td>
+                                <td></tr>
+                            <tr>
+                                <td>
+                                <div align="left"><label for="peran">&nbsp &nbsp Peran/ Jabatan</label></div>
+                                &nbsp &nbsp<input name="peran" required="required" placeholder="Masukan Jabatan"></input><br/>
+                                </td>
+                                <td></tr>    
+                            <tr>
+                                <td><br>
+                                <div align="left"><label><h4>&nbsp 3. Apa saja tanggung jawab pekerjaan/jabatan Anda saat ini?</h4></label></div>
+                                &nbsp &nbsp <textarea id="tg" name="tg" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                                </td>
+                                <td>
+                            </tr>
+                            <tr>
+                                <td><br>
+                                <div align="left"><label><h4>&nbsp 4. Uraikan secara terperinci apa saja yang Anda lakukan selama ini dalam rangka menunaikan tiap-tiap tanggung jawab di atas.</h4></label></div>
+                                &nbsp &nbsp <textarea id="menunaikan" name="menunaikan" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                                </td>
+                                <td>
+                            </tr>
+                           
+                        </table><br>
+                    </form>
+
+
+                    <form action="action_page.php">
+                        <table>
+                            <pre></pre><div class="card ">
+                                <div class="card-header">
+                                    <h3>VI. KONDISI KERJA </h3>
+                                </div>
+                            <br>
+                            <p><h4>&nbsp 1. Uraikan dengan singkat pekerjaan Anda selama ini (dimulai dari posisi terakhir);</h4></p>
+                            <tr>
+                                <td>
+                                    <label></label>
+                                    &nbsp &nbsp<input type="checkbox" name="Kondisi" /><font size="5">&nbsp<b>Baik</b></font>&nbsp &nbsp
+                                    &nbsp<input type="checkbox" name="Kondisi" /> <font size="5"><b>Cukup Baik</b></font>&nbsp &nbsp
+                                    &nbsp<input type="checkbox" name="Kondisi" /> <font size="5"><b>Perlu Diperbaiki</b></font>&nbsp &nbsp
+                                
+                                <td></tr>  
+                            <tr>
+                                <td><br>
+                                <div align="left"><label><h4>&nbsp Ceritakan kondisi yang Anda dan usulkan perbaikan yang perlu dilakukan : </h4></label></div>
+                                &nbsp &nbsp <textarea id="po" name="po" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                                </td>
+                                <td>
+                            </tr>
+                            <tr>
+                                <td><br>
+                                <div align="left"><label><h4>&nbsp 2. Ada Beberapa aspek/situasi/kondisi yang membuat Anda dapat optimal dalam bekerja.
+                                    <br>&nbsp &nbsp &nbsp Jelaskan aspek apa saja yang dapat mendukung optimalisasi Anda dalam bekerja? </h4></label></div>
+                                &nbsp &nbsp <textarea id="po" name="po" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                                </td>
+                                <td>
+                            </tr>
+                           
+                        </table><br>
+                    </form>
+
+                    <form action="action_page.php">
+                        <table>
+                            <pre></pre><div class="card ">
+                                <div class="card-header">
+                                    <h3>VII. MINAT DAN HARAPAN </h3>
+                                </div>
+                            <br>
+                                <td><br>
+                                <div align="left"><label><h4>&nbsp 1. Apakah yang Anda sukai dari pekerjaan Anda sekarang? (kondisi,tugas-tugas,dsb). Mengapa? </h4></label></div>
+                                &nbsp &nbsp <textarea id="po" name="po" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                                </td>
+                                <td>
+                            </tr>
+                            <tr>
+                                <td><br>
+                                <div align="left"><label><h4>&nbsp 2. Apa yang paling Anda tidak sukai dari pekerjaan/jabatan Anda sekarang? (kondisi,tugas-tugas,dsb). Mengapa?</h4></label></div>
+                                &nbsp &nbsp <textarea id="po" name="po" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                                </td>
+                                <td>
+                            </tr>
+                           
+                        </table><br>
+                    </form>
+
+                </form>
+
+                <form action="action_page.php">
+                    <table>
+                        <pre></pre><div class="card ">
+                            <div class="card-header">
+                                <h3>VIII. KEKUATAN DAN KELEMAHAN </h3>
+                            </div>
+                        <br>
+                            <td><br>
+                            <div align="left"><label><h4>&nbsp 1. Apa yang menjadi kekuatan (Strong Point) Anda? </h4></label></div>
+                            &nbsp &nbsp <textarea id="po" name="po" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                            </td>
+                            <td>
+                        </tr>
+                        <tr>
+                            <td><br>
+                            <div align="left"><label><h4>&nbsp 2. Apakah yang menjadi kelemahan (Weak Point) Anda? </h4></label></div>
+                            &nbsp &nbsp <textarea id="po" name="po" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                            </td>
+                            <td>
+                        </tr>
+
+                        <tr>
+                            <td><br>
+                            <div align="left"><label><h4>&nbsp 3. Ceritakan tujuan Anda ke depan baik jangka pendek maupun jangka panjang.
+                                <br>&nbsp &nbsp &nbsp (Setelah selesai, tuliskan tanggal tes, tanda tangan, dan nama lengkap di bawah jawab Anda).
+                            </h4></label></div>
+                            &nbsp &nbsp <textarea id="po" name="po" required="required" rows="5" cols="95" style="text-transform: uppercase;resize: none;"></textarea><br/>
+                            </td>
+                            <td>
+                        </tr>
+                       
+                    </table><br>
+                </form>
+</table>
+</form>
+</body>
+</html>
